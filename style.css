@@ -1,0 +1,18 @@
+body{
+  background-image: linear-gradient(rgb(243, 81, 108),rgba(244, 106, 106, 0.488),rgb(153, 204, 153));
+  color: white;
+}
+
+p{
+
+  color: goldenrod;
+  background-color: paleturquoise;
+  width: 500px;
+  height: 400px;
+  padding: 20px;
+  margin: 0 auto;
+  text-align: justify;
+  overflow: scroll;
+
+
+}
