@@ -2,9 +2,36 @@ body{
   background-image: linear-gradient(rgb(243, 81, 108),rgba(244, 106, 106, 0.488),rgb(153, 204, 153));
   color: white;
   background-repeat:no-repeat;
+
+}
+.first-section{
+  /* margin:0 auto; */
+display: grid;
+grid-template-columns: 500px 500px;
+justify-content: space-evenly;
+align-items: center;
+}
+.dow-img{
+  padding: 15px 50px;
+  font-size: 18px;
+  font-weight: 600;
+  border: 3px solid lightpink;
+  border-radius: 10px;
+  background-image: linear-gradient(rgb(231, 122, 140),rgba(255, 217, 0, 0.553));
+  transition: all 2s;
+}
+.dow-img:hover{
+  color:white;
+border-radius: 0 50px;
+ background-image: linear-gradient(rgb(110, 226, 239),rgba(255, 0, 247, 0.553));
+ transform: rotate(360deg);
+}
+.img-first{
+  width: 450px;
+
 }
 
-p{
+.mid p{
 
   color: goldenrod;
   background-color: paleturquoise;
@@ -27,7 +54,7 @@ img{
 }
 .hole-form{
   margin: 0 auto;
-  background-color: rgb(203, 153, 249);
+  background-color: rgba(128, 15, 234, 0.482);
   width: 400px;
   padding: 20px;
   box-sizing: border-box;
@@ -68,7 +95,8 @@ font-size: 18px;
     margin: 10px 0;
 font-size: 25px;
 font-weight: 600;
-color: rgb(99, 58, 4);
+color: rgb(155, 8, 174);
+text-shadow: 3px 3px 3px rgb(62, 2, 70);
 }
 .sub-btn{
   margin-top: 12px;
