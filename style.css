@@ -14,10 +14,14 @@ p{
   margin: 0 auto;
   text-align: justify;
   overflow: scroll;
-background-image: url(/rasel2-removebg-preview.png);
+background-image: url(/rasel.png);
 background-size: 300px;
 background-repeat: no-repeat;
 background-position: bottom;
 
 
+}
+img{
+  width: 1000px;
+  margin: 50px ;
 }
